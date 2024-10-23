@@ -26,6 +26,8 @@ export const routes: Routes = [
   {path: 'chat', component: ChatComponent },
   {path: 'about', component: AboutComponent },
   {path: '', component: HomeComponent },
-  {path: 'details/:slug', component: DetailsComponent },
-  {path: 'all_properties', component: AllPropertiesComponent }
+  {path: 'details', component: DetailsComponent },
+  {path: 'all_properties', component: AllPropertiesComponent },
+
+  {path: '**', component: LoginComponent}
 ];

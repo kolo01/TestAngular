@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './conntact.component.scss'
 })
 export class ConntactComponent {
-
+email = "konedieu5@gmail.com"
 }
